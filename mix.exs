@@ -50,7 +50,7 @@ defmodule Guardian.Mixfile do
      {:earmark, ">= 0.0.0", only: :docs},
      {:credo, "~> 0.3", only: [:dev, :test]},
      {:uuid, ">=1.1.1"},
-     {:dialyxir, "~> 0.3.5"}]
+     {:dialyxir, "~> 0.3.5", only: [:dev, :test]}]
   end
 
   defp package do
